@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('C:\Users\Varadraj\OneDrive\Desktop\test\images\SL-121021-47240-13.jpg'); /* Add the image URL here */
+    background-size: cover; /* Ensures the image covers the entire screen */
+    background-position: center center; /* Centers the image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-attachment: fixed; /* Keeps the image fixed when scrolling */
+}
+
+.container {
+    text-align: center;
+    background-color: rgb(25, 22, 191);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(18, 2, 2, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.converter {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+select, input {
+    padding: 8px;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+p {
+    font-size: 18px;
+    color: #333;
+}
